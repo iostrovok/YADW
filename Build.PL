@@ -16,8 +16,8 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        #'ABC'              => 1.6,
-        #'Foo::Bar::Module' => 5.0401,
+        'SQL::Abstract::Limit ' => 0.141,
+        'DBI' => 1.628,
     },
     add_to_cleanup     => [ 'YADW-*' ],
     create_makefile_pl => 'traditional',

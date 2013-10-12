@@ -16,3 +16,12 @@ pod2htm*.tmp
 pm_to_blib
 YADW-*
 YADW-*.tar.gz
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
